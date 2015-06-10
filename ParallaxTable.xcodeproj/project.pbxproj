@@ -15,6 +15,7 @@
 		ADD2068D1B275BE1004F1346 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD2068C1B275BE1004F1346 /* Images.xcassets */; };
 		ADD206901B275BE1004F1346 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD2068E1B275BE1004F1346 /* LaunchScreen.xib */; };
 		ADD2069C1B275BE1004F1346 /* ParallaxTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD2069B1B275BE1004F1346 /* ParallaxTableTests.m */; };
+		ADD206A71B275CD6004F1346 /* ParallaxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD206A61B275CD6004F1346 /* ParallaxTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		ADD206951B275BE1004F1346 /* ParallaxTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD2069A1B275BE1004F1346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADD2069B1B275BE1004F1346 /* ParallaxTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallaxTableTests.m; sourceTree = "<group>"; };
+		ADD206A51B275CD6004F1346 /* ParallaxTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxTableViewCell.h; sourceTree = "<group>"; };
+		ADD206A61B275CD6004F1346 /* ParallaxTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				ADD206861B275BE1004F1346 /* ViewController.h */,
 				ADD206871B275BE1004F1346 /* ViewController.m */,
 				ADD206891B275BE1004F1346 /* Main.storyboard */,
+				ADD206A51B275CD6004F1346 /* ParallaxTableViewCell.h */,
+				ADD206A61B275CD6004F1346 /* ParallaxTableViewCell.m */,
 				ADD2068C1B275BE1004F1346 /* Images.xcassets */,
 				ADD2068E1B275BE1004F1346 /* LaunchScreen.xib */,
 				ADD206831B275BE1004F1346 /* ParallaxTable.xcdatamodeld */,
@@ -226,6 +231,7 @@
 				ADD206821B275BE1004F1346 /* AppDelegate.m in Sources */,
 				ADD206881B275BE1004F1346 /* ViewController.m in Sources */,
 				ADD2067F1B275BE1004F1346 /* main.m in Sources */,
+				ADD206A71B275CD6004F1346 /* ParallaxTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
